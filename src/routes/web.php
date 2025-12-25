@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Vega\FaceLogin\Http\Controllers\FaceLoginController;
+use ElDakhly\SmartFaceAuth\Http\Controllers\FaceLoginController;
 
 Route::group(['middleware' => ['web']], function () {
     // Guest Routes

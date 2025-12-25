@@ -1,6 +1,6 @@
 <?php
 
-namespace Vega\FaceLogin;
+namespace ElDakhly\SmartFaceAuth;
 
 use Illuminate\Support\ServiceProvider;
 

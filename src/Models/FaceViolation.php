@@ -1,6 +1,6 @@
 <?php
 
-namespace Vega\FaceLogin\Models;
+namespace ElDakhly\SmartFaceAuth\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

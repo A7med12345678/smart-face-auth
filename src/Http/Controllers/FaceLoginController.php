@@ -1,10 +1,10 @@
 <?php
 
-namespace Vega\FaceLogin\Http\Controllers;
+namespace ElDakhly\SmartFaceAuth\Http\Controllers;
 
 use Illuminate\Routing\Controller;
-use Vega\FaceLogin\Models\FaceDescriptor;
-use Vega\FaceLogin\Models\FaceViolation;
+use ElDakhly\SmartFaceAuth\Models\FaceDescriptor;
+use ElDakhly\SmartFaceAuth\Models\FaceViolation;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;

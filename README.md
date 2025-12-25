@@ -42,7 +42,7 @@ face-login-package/
 
 ثم قم بتشغيل:
 ```bash
-composer require vega/face-login:dev-main
+composer require el-dakhly/smart-face-auth:dev-main
 ```
 
 ### 2. تشغيل الـ Migrations
