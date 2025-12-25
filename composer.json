@@ -1,0 +1,27 @@
+{
+    "name": "vega/face-login",
+    "description": "A Laravel package for face login using face-api.js",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "VEGA"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^9.0|^10.0|^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vega\\FaceLogin\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vega\\FaceLogin\\FaceLoginServiceProvider"
+            ]
+        }
+    }
+}
